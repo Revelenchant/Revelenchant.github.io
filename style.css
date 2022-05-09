@@ -1,46 +1,60 @@
-body {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
-    font-family: sans-serif;
-    line-height: 1.5;
-    background-color: blanchedalmond;
+
+header {
+
+    padding-top: 0px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+    border-bottom: 3px solid black;
 }
+nav {
+    
+    
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+
+html {
+    
+    background-image: url(http://i.yapx.ru/R5YX9.png);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 h1 {
-    margin-top: 50px;
-    margin-bottom: 5px;
-    font-size: 55px;
+    text-align: center;
+    margin-right: 165px;
+}
+h3 {
     text-align: center;
 }
-h2 {
-    margin-top: 0;
-    padding-bottom: 30px;
-    font-size: 25px;
+.logo {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sidebar {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.description {
     text-align: center;
-    border-bottom: 4px solid black;
+    font-size: 19px;
 }
-main{
-    width: 900px;
-    margin: auto;
-}
-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-section h2 {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0;
-    padding-bottom: 0;
-    text-align: left;
-    border: none;
-}
-section ul li {
-    margin-bottom: 10px;
+main {
+    background: url(http://i.yapx.ru/R5ZEW.png);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
