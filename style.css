@@ -165,7 +165,8 @@ padding-top: 100px;
 .middle {
     color: yellow;
     text-shadow: 1px 2px 1px #000;
-    border: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
     text-align: center;
     background-image: url(https://aif-s3.aif.ru/images/011/707/29d7043dced25e5f45e701436bf1e984.jpg);
 }
