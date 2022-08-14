@@ -13,11 +13,11 @@ themeButton.onclick = function() {
 const headers = document.querySelectorAll("[data-name='spoiler-title']");
 headers.forEach(function(item) {
     item.addEventListener("click", headerClick);
-    item.addEventListener("touch", headerTouch);
+    item.addEventListener("touchstart", headerTouchstart);
 });
 function headerClick() {
     this.nextElementSibling.classList.toggle("spoiler-body");
 }
-function headerTouch() {
+function headerTouchstart() {
     this.nextElementSibling.classList.toggle("spoiler-body");
 }
