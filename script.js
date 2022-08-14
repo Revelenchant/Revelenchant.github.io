@@ -12,7 +12,7 @@ themeButton.onclick = function() {
 
 const headers = document.querySelectorAll("[data-name='spoiler-title']");
 headers.forEach(function(item) {
-    item.addEventListener("click","Touch", headerClick, headerTouch);
+    item.addEventListener("click","TouchEvent", headerClick, headerTouchEvent);
 });
 function headerClick() {
     this.nextElementSibling.classList.toggle("spoiler-body");
