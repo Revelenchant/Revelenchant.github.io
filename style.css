@@ -265,12 +265,15 @@ h2 {
     float: left;
     padding-left: 250px;
     padding-top: 70px;
+    
 }
 .contact_pull__column {
     display: flex;
     flex-direction: column;
     line-height: 2;
-
+    align-items: flex-end;
+    justify-content: space-between ;
+    height: 300px;
 }
 .contact_pull_item {
     min-width: 260px;
@@ -365,10 +368,6 @@ h2 {
         margin-right: auto;
         min-width: 750px;
     }
-    .nav__item{
-        font-size: 15px;
-        padding: 12px 5px 10px 10px;
-    }
     .registration {
         font-size: 0px;
         padding: 12px 10px 10px 0px;
@@ -391,4 +390,5 @@ h2 {
         padding-left: 70px;
         padding-right: 70px;
     }
+    
 }
